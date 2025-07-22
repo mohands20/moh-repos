@@ -112,7 +112,7 @@ isodate==0.7.2
     # via msrest
 jiter==0.10.0
     # via openai
-jsonschema==4.24.0
+jsonschema==4.25.0
     # via mcp
 jsonschema-specifications==2025.4.1
     # via jsonschema
