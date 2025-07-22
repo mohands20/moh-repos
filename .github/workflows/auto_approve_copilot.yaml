@@ -10,6 +10,6 @@ jobs:
     if: github.actor == 'copilot-swe-agent'
     steps:
       - name: Auto-approve PR from Copilot agent
-        uses: hmarr/auto-approve-action@v3
+        uses: hmarr/auto-approve-action@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
